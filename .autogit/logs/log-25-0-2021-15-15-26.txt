@@ -1,0 +1,23 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jan 25 2021 15:15:26 GMT+0800 (Singapore Standard Time)
+------------------------------------------------------
+
+Modified files:
+* android/app/src/main/AndroidManifest.xml
+* android/app/src/main/java/co/appbrewery/flash_chat/MainActivity.java
+* lib/screens/login_screen.dart
+* lib/screens/registration_screen.dart
+* lib/screens/welcome_screen.dart
+* pubspec.lock
+
+
+Created files:
+* .autogit/autogit.json
+* .flutter-plugins-dependencies
+* ios/Flutter/flutter_export_environment.sh
+
+
+Deleted files:
+
+
+Renamed files:
