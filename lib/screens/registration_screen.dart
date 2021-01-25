@@ -1,5 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flash_chat/Components/roundedButton.dart';
+// import 'package:flash_chat/Components/roundedButton.dart';
 import 'package:flash_chat/screens/chat_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -69,8 +69,8 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               SizedBox(
                 height: 24.0,
               ),
-              RoundedButton(
-                txt: 'Register',
+              FlatButton(
+                child: Text('Register'),
                 onPressed: () async {
                   try {
                     final newUser = await _auth.createUserWithEmailAndPassword(

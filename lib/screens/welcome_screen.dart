@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'login_screen.dart';
 import 'registration_screen.dart';
-import 'package:flash_chat/Components/roundedButton.dart';
+// import 'package:flash_chat/Components/roundedButton.dart';
 
 class WelcomeScreen extends StatefulWidget {
   static const String id = 'welcome_screen';
@@ -78,14 +78,14 @@ class _WelcomeScreenState extends State<WelcomeScreen>
             SizedBox(
               height: 48.0,
             ),
-            RoundedButton(
-              txt: 'Log In',
+            FlatButton(
+              child: Text('Log In'),
               onPressed: () {
                 Navigator.pushNamed(context, LoginScreen.id);
               },
             ),
-            RoundedButton(
-              txt: 'Register',
+            FlatButton(
+              child: Text('Register'),
               onPressed: () {
                 Navigator.pushNamed(context, RegistrationScreen.id);
               },

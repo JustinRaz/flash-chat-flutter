@@ -1,4 +1,4 @@
-import 'package:flash_chat/Components/roundedButton.dart';
+// import 'package:flash_chat/Components/roundedButton.dart';
 import 'package:flash_chat/screens/chat_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -69,8 +69,8 @@ class _LoginScreenState extends State<LoginScreen> {
               SizedBox(
                 height: 24.0,
               ),
-              RoundedButton(
-                txt: 'Log In',
+              FlatButton(
+                child: Text('Log In'),
                 onPressed: () async {
                   setState(() {
                     showSpinner = true;
