@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jan 25 2021 15:45:00 GMT+0800 (Singapore Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .flutter-plugins-dependencies
+* android/app/build.gradle
+* android/build.gradle
+
+
+Created files:
+* .autogit/logs/log-25-0-2021-15-15-26.txt
+* android/app/google-services.json
+
+
+Deleted files:
+
+
+Renamed files:
